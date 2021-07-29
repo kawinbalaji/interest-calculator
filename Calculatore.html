@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Simple interest calculator</title>
+<link rel="shortcut icon" href="download.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="style1.js"></script>
+</head>
+<body>
+<div class="maindiv">
+<ul class="container">
+<div class="maindiv">
+<h2><center>SIMPLE INTEREST CALCULATOR</center></h2>
+<b><li>Amount <input type="number" id="A" placeholder="Enter total Amount"></li>
+<li> Rate     <input type="range" min="0" max="20" step="0.25" value="10.25" id="R" name="R" onchange="SliderValue()"> 
+<span id="rate_display">0%</span></li>
+<li>Years  <input type="number" id="Y" placeholder="Enter Time(years)"></li>
+<br><center><button onclick="calculate()">Calculate Interest</button><br>
+<p id="result"></p>
+</ul>
+<footer>
+<img src="image.png" height="25px" width="25px">Everyone Can Get Rich</img>
+</footer>
+</div>
+</body>
+</html>
